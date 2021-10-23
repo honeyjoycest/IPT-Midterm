@@ -14,30 +14,30 @@ class UserSeeder extends Seeder
         $list = [
             [
                 'id'=>'1',
-                'lname'=>'Augis',
-                'fname'=>'Chadie Gil',
-                'address'=>'Panadtaran,Tubigon,Bohol',
+                'lname'=>'Valleser',
+                'fname'=>'Honey Joyce',
+                'address'=>'Lucob,Calape,Bohol',
                 'phone'=>'09123214',
-                'email'=>'chad@email.com',
-                'password'=>bcrypt('passwrd123')
+                'email'=>'honeyjoyce@email.com',
+                'password'=>bcrypt('pass_123')
             ],
             [
                 'id'=>'2',
-                'lname'=>'Smith',
-                'fname'=>'Stephen Cary',
-                'address'=>'USA,Street 101',
+                'lname'=>'Hegre',
+                'fname'=>'Mathias',
+                'address'=>'Tonstad, Norway',
                 'phone'=>'09123214',
-                'email'=>'chad@email.com',
-                'password'=>bcrypt('passwrd123')
+                'email'=>'honeyjoyce@email.com',
+                'password'=>bcrypt('pass_123')
             ],
             [
                 'id'=>'3',
-                'lname'=>'Lebron',
-                'fname'=>'James',
-                'address'=>'LA,Wild Street 134',
+                'lname'=>'Gomez',
+                'fname'=>'Selena',
+                'address'=>'Grand Prairie, Texas',
                 'phone'=>'09123214',
-                'email'=>'chad@email.com',
-                'password'=>bcrypt('passwrd123')
+                'email'=>'honeyjoyce@email.com',
+                'password'=>bcrypt('pass_123')
             ],
         ];
         foreach($list as $user){
